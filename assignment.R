@@ -27,6 +27,7 @@ makeCacheMatrix<- function(x=matrix()) {
                return(m)
                
              }
+        
          mat<-x$get()
          m<-solve(mat, ...)
          x$setInverse(m)
